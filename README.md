@@ -28,7 +28,8 @@ The MNIST dataset is automatically downloaded via:
 ```python
 from tensorflow.keras.datasets import mnist
 
-** Model Architechture:**
+## Model Architecture
+
 Input: (28, 28, 1)
 ↓
 Conv2D(32) + ReLU
@@ -46,3 +47,8 @@ Dense(128) + ReLU
 Dropout(0.5)
 ↓
 Dense(10) + Softmax
+
+
+
+
+
